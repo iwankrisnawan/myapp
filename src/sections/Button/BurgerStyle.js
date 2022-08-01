@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Burger = styled.button`
+export const StyledBurger = styled.button`
     position: absolute;
     top: 5%;
     left: 2rem;
@@ -22,12 +22,11 @@ export const Burger = styled.button`
       div {
         width: 2rem;
         height: 0.25rem;
-        background: ${({ theme }) => theme.primaryLight};
+        background: black;
         border-radius: 10px;
         transition: all 0.3s linear;
         position: relative;
         transform-origin: 1px;
       }
-      
     `;
 

@@ -1,7 +1,8 @@
 import React from "react";
-import ImageLogo from "./image";
+import { ImageLogo } from "./image";
 
-const iconSet = "text-5xl mx-auto inline-block w-[60px]";
+const iconSet = "mx-auto inline-block w-[60px]";
+const flagSet = "mx-auto inline-block w-[35px]";
 const data = {
     hero : {
         name: "Agus Wibawa",
@@ -63,6 +64,14 @@ const data = {
                 skillLink:"https://git-scm.com/",
                 skillIcon: <img src={ImageLogo.logoGit} className={iconSet}/>
             },
+        ],
+    },
+    flags : {
+        countrys: [
+            {
+                flagName: "English",
+                flagImage: <img src="" className={flagSet}/>
+            }
         ],
     },
 };

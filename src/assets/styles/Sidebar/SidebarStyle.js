@@ -4,7 +4,7 @@ export const StyledSidebar = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #1f2937;
+  background: #D9D9D9;
   height: 100vh;
   width: 300px;
   text-align: left;

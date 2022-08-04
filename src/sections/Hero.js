@@ -1,10 +1,6 @@
 import React from "react";
 import images from "../images/hero-data/agus.jpeg";
-import { FaEnvelope, FaGithub } from "react-icons/fa";
-import { FaDribbble } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaDribbble, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Hero ({name, desc, resume, contact, medsos:{github, facebook, instagram, twitter, dribbble, email}}) {
     return (

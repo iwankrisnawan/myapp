@@ -8,6 +8,8 @@ export const StyledFlag = styled.button`
     flex-direction: column;
     width: 2rem;
     height: 2rem;
-    background
+    border: none;
+    cursor: pointer;
+    z-index: 10; 
 
 `

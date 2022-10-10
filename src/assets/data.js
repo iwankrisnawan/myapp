@@ -66,50 +66,7 @@ const data = {
             },
         ],
     },
-    flags : {
-        countrys: [
-            {
-                flagNameEN: "English",
-                flagNameID: "Inggris",
-                flagNameJP: "イングリッシュ",
-                flagNameRU: "Английский",
-                flagNameFR: "Anglais",
-                flagImage: <img src={Flag.flagUK} className={flagSet}/>
-            },
-            {
-                flagNameEN: "Indonesia",
-                flagNameID: "Indonesia",
-                flagNameJP: "インドネシア",
-                flagNameRU: "Индонезия",
-                flagNameFR: "Indonésie",
-                flagImage: <img src={Flag.flagID} className={flagSet}/>
-            },
-            {
-                flagNameEN: "Japan",
-                flagNameID: "Jepang",
-                flagNameJP: "日本",
-                flagNameRU: "Япония",
-                flagNameFR: "Japon",
-                flagImage: <img src={Flag.flagJP} className={flagSet}/>
-            },
-            {
-                flagNameEN: "Russia",
-                flagNameID: "Rusia",
-                flagNameJP: "ロシア",
-                flagNameRU: "Россия",
-                flagNameFR: "Russie",
-                flagImage: <img src={Flag.flagRU} className={flagSet}/>
-            },
-            {
-                flagNameEN: "France",
-                flagNameID: "Prancis",
-                flagNameJP: "フランス",
-                flagNameRU: "Франция",
-                flagNameFR: "Français",
-                flagImage: <img src={Flag.flagUK} className={flagSet}/>
-            },
-        ],
-    },
+    
 };
 
 

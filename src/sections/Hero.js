@@ -5,7 +5,7 @@ import { FaEnvelope, FaGithub, FaDribbble, FaTwitter, FaFacebook, FaInstagram } 
 function Hero ({name, desc, resume, contact, medsos:{github, facebook, instagram, twitter, dribbble, email}}) {
     return (
         <>
-       <div className="container flex items-center w-full mx-auto min-h-[600px] mt-24 mb-10">
+       <div className="container flex items-center w-full mx-auto min-h-[600px] my-8">
             <div className="m-auto align-middle">
                 <div>
                 <img src={images} width="140px" className="border-solid border-2 border-[#1a58a4] rounded-full m-auto"/>

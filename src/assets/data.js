@@ -2,7 +2,6 @@ import React from "react";
 import { ImageLogo } from "./image";
 
 const iconSet = "mx-auto inline-block w-[60px]";
-const flagSet = "mx-auto inline-block w-[35px]";
 const data = {
     hero : {
         name: "Agus Wibawa",

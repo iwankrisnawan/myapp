@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyledSidebar } from '../../assets/styles/Sidebar/SidebarStyle';
-import { bool, func } from 'prop-types';
+import { bool } from 'prop-types';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 
-const SideBar = ({ open, setOpen }) => {
+const SideBar = ({ open }) => {
   return (
     <>
      <StyledSidebar open={open} >
@@ -14,7 +14,6 @@ const SideBar = ({ open, setOpen }) => {
         spy={true}
         smooth={true}
         duration={500}
-        onClick={() => setOpen(!open)}
         className="cursor-pointer text-3xl text-[#1a58a4] font-semibold tracking-wider flex align-center justify-center my-4"
         >
         About
@@ -77,8 +76,7 @@ const SideBar = ({ open, setOpen }) => {
 
 
 SideBar.propTypes = {
-  open: bool.isRequired,
-  setOpen: func.isRequired,   
+  open: bool.isRequired
 };
 
 export default SideBar;

@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageLogo, Flag } from "./image";
+import { ImageLogo } from "./image";
 
 const iconSet = "mx-auto inline-block w-[60px]";
 const flagSet = "mx-auto inline-block w-[35px]";

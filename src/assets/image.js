@@ -8,11 +8,3 @@ export const ImageLogo = {
     logoReact: require('../images/tools-data/react.svg').default,
     logoGit: require('../images/tools-data/git.svg').default,
 }
-
-export const Flag = {
-    flagUK: require('../images/flag-data/UK.svg').default,
-    flagID: require('../images/flag-data/ID.svg').default,
-    flagJP: require('../images/flag-data/JP.svg').default,
-    flagRU: require('../images/flag-data/RU.svg').default,
-    flagFR: require('../images/flag-data/FR.svg').default,
-}

@@ -44,7 +44,7 @@ const data = {
                 skillIcon: <img src={ImageLogo.logoHtml5} className={iconSet}/>
             },
             {
-                skillName:"Js",
+                skillName:"JavaScript",
                 skillLink:"https://developer.mozilla.org/en-US/docs/Web/JavaScript",
                 skillIcon: <img src={ImageLogo.logoJs} className={iconSet}/>
             },

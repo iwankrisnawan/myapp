@@ -4,11 +4,12 @@ import About from './sections/About';
 import Tools from './sections/Tools.js';
 import data from './assets/data';
 import Header from './sections/Header';
+import ScrolltoTop from './sections/ScrollTop/Scrolltop';
 import {Element} from "react-scroll";
 
 function App() {
   return (
-  <>
+      <>
     {/* Header Section */}
     <header>
     <Header></Header>
@@ -21,7 +22,10 @@ function App() {
       </Element>
       <Tools id="section1" title={data.tools.title} tech={data.tools.skills}></Tools>
     </main>
-  </>
+
+    {/* ScrollTop Here */}
+    <ScrolltoTop/>
+    </>
   );
 }
 

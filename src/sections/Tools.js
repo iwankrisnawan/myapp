@@ -1,5 +1,5 @@
 import React from "react";
-import SkillTech from "./SkillTech";
+import SkillTech from "./Tools-Source/SkillTech";
 
 function Tools({title, tech}){
   return (

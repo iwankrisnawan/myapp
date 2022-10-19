@@ -1,7 +1,8 @@
 import React from "react";
-import { ImageLogo } from "./image";
+import { ImageLogo, ImagePortfolio } from "./image";
 
 const iconSet = "mx-auto inline-block w-[60px]";
+const imgSet = "inline-block w-[80px]";
 const data = {
     hero : {
         name: "Agus Wibawa",
@@ -65,6 +66,23 @@ const data = {
             },
         ],
     },
+    portfolio : {
+        title : "Portfolio",
+        techUsed : [
+            {
+                techImage: <img src={ImagePortfolio.ImageWordpress} className={imgSet}/>
+            },
+            {
+                techImage: <img src={ImagePortfolio.ImageJavascript} className={imgSet}/>
+            },
+            {
+                techImage: <img src={ImagePortfolio.ImagePHP} className={imgSet}/>
+            },
+            {
+                techImage: <img src={ImagePortfolio.ImageElementor} className={imgSet}/>
+            }
+        ]
+    }
     
 };
 

@@ -1,46 +1,13 @@
-import React, { Fragment } from "react";
-import { PortfolioImage, PortfolioContent } from "./Portfolio-source/PortfolioSource";
+import React, { Fragment } from 'react';
+import { PortfolioSlideOne, PortfolioSlideTwo } from './PortfolioSlide';
 
- function PortfolioSlideOne( title, techUsed ) {
+function Portfolio() {
     return(
         <Fragment>
-            <div className="container">
-                <div className="title">
-                    <h2 className="text-5xl"> {title} </h2>
-                </div>
-                <div>
-                    <div className="content">
-                        
-                    </div>
-                    <div className="image">
-                        <img></img>
-                    </div>
-                </div>
-            </div>
+            <PortfolioSlideOne></PortfolioSlideOne>
+            <PortfolioSlideTwo></PortfolioSlideTwo>
         </Fragment>
     );
 };
 
- function PortfolioSlideTwo( title, techUsed ) {
-    return(
-        <Fragment>
-            <div className="container">
-                <div className="title">
-                    <h2 className="text-5xl">{title}</h2>
-                </div>
-                <div>
-                    <div className="content">
-
-                    </div>
-                    <div className="image ">
-
-                    </div>
-                </div>
-
-            </div>
-
-        </Fragment>
-    );
-};
-
-export { PortfolioSlideOne, PortfolioSlideTwo };
+export default Portfolio;

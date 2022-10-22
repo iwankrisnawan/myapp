@@ -68,51 +68,51 @@ const data = {
     },
     portfolio : {
         title : "Portfolio",
-        PortfolioIcon : [
+        PortfolioDataIcon: [
             {
-                techImageOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageWordpress} className={imgSet}/>
+                techIconOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageWordpress} className={imgSet}/>
             },
             {
-                techImageOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageJavascript} className={imgSet}/>
+                techIconOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageJavascript} className={imgSet}/>
             },
             {
-                techImageOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImagePHP} className={imgSet}/>
+                techIconOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImagePHP} className={imgSet}/>
             },
             {
-                techImageOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageElementor} className={imgSet}/>
+                techIconOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageElementor} className={imgSet}/>
             },
             {
-                techImageOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageFigma} className={imgSet}/>
+                techIconOne: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageFigma} className={imgSet}/>
             },
             {
-                techImageTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageWordpress} className={imgSet}/>
+                techIconTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageWordpress} className={imgSet}/>
             },
             {
-                techImageTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImagePHP} className={imgSet}/>
+                techIconTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImagePHP} className={imgSet}/>
             },
             {
-                techImageTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageElementor} className={imgSet}/>
+                techIconTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageElementor} className={imgSet}/>
             },
             {
-                techImageTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageLaravel} className={imgSet}/>
+                techIconTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageLaravel} className={imgSet}/>
             },
             {
-                techImageTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageReact} className={imgSet}/>
+                techIconTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageReact} className={imgSet}/>
             },
             {
-                techImageTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImagejQuery} className={imgSet}/>
+                techIconTwo: <img alt="PortfolioImagetech" src={ImagePortfolio.ImagejQuery} className={imgSet}/>
             },
         ],
         portfolioProject : [
             {
                 projectNameOne: "Multi Level Marketing Site",
                 descOne : "I and one of my lifetame changer colleague we build together a lifetime project for someone from europe on his MLM welness project and I was responsible at all layout design that displayed on the site from mocking up to live website, this project was build using PHP, Wordpress, jQuery",
-                featuredImageOne : <img alt="Featured Image Portfolio" src={ImagePortfolio.ImageWnf} />
+                featuredImageOne : <img alt="FeaturedPortfolio" src={ImagePortfolio.ImageWnf} />
             },
             {
                 projectNameTwo: "E-Commerce Pharmacy Manufacture Site",
                 descTwo : "we working together to maintain all website for cannabis manufactured company in UK with our company as third party source for supporting their digital marketing campaign, here in All Good Bud I was a Front End Developer and UI / UX Designer have responsibilites to maintain all design interface layout for two website ",
-                featuredImageTwo: <img alt="Featured Image Portfolio" src={ImagePortfolio.ImageAgb} />
+                featuredImageTwo: <img alt="FeaturedPortfolio" src={ImagePortfolio.ImageAgb} />
             },
         ],
     }

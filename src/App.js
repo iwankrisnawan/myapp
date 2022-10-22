@@ -5,6 +5,7 @@ import Tools from './sections/Tools.js';
 import data from './assets/data';
 import Header from './sections/Header';
 import ScrolltoTop from './sections/ScrollTop/Scrolltop';
+import { PortfolioSlideOne,PortfolioSlideTwo } from './sections/Portfolio';
 import {Element} from "react-scroll";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <About desc={data.about.desc}></About>
       </Element>
       <Tools id="section1" title={data.tools.title} tech={data.tools.skills}></Tools>
+      
     </main>
 
     {/* ScrollTop Here */}

@@ -14,7 +14,7 @@ export const ImagePortfolio = {
     ImagePHP: require('../images/portfolio-data/Php.webp').default,
     ImageJavascript: require('../images/portfolio-data/Javascript.webp').default,
     ImageElementor: require('../images/portfolio-data/Elementor.webp').default,
-    ImageFigma: require('../images/portfolio-data/Figma.webp').default,
+    ImageFigma: require('../images/portfolio-data/figma.webp').default,
     ImageReact: require('../images/portfolio-data/React.webp').default,
     ImagejQuery: require('../images/portfolio-data/jQuery.webp').default,
     ImageLaravel: require('../images/portfolio-data/Laravel.webp').default,

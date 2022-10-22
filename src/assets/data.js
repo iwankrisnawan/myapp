@@ -27,42 +27,42 @@ const data = {
             {
                 skillName:"Adobe",
                 skillLink:"https://www.adobe.com/",
-                skillIcon: <img src={ImageLogo.logoAdobe} className={iconSet}/>
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoAdobe} className={iconSet}/>
             },
             {
                 skillName:"CSS",
                 skillLink:"https://developer.mozilla.org/en-US/docs/Web/CSS",
-                skillIcon: <img src={ImageLogo.logoCss} className={iconSet}/>
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoCss} className={iconSet}/>
             },
             {
                 skillName:"Figma",
                 skillLink:"https://www.figma.com/",
-                skillIcon: <img src={ImageLogo.logoFigma} className={iconSet}/>
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoFigma} className={iconSet}/>
             },
             {
                 skillName:"Html",
                 skillLink:"https://developer.mozilla.org/en-US/docs/Web/HTML",
-                skillIcon: <img src={ImageLogo.logoHtml5} className={iconSet}/>
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoHtml5} className={iconSet}/>
             },
             {
                 skillName:"JavaScript",
                 skillLink:"https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-                skillIcon: <img src={ImageLogo.logoJs} className={iconSet}/>
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoJs} className={iconSet}/>
             },
             {
                 skillName:"Npm",
                 skillLink:"https://npmjs.com",
-                skillIcon: <img src={ImageLogo.logoNpm} className={iconSet}/>
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoNpm} className={iconSet}/>
             },
             {
                 skillName:"React",
                 skillLink:"https://reactjs.org/",
-                skillIcon: <img src={ImageLogo.logoReact} className={iconSet}/>
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoReact} className={iconSet}/>
             },
             {
                 skillName:"Git",
                 skillLink:"https://git-scm.com/",
-                skillIcon: <img src={ImageLogo.logoGit} className={iconSet}/>
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoGit} className={iconSet}/>
             },
         ],
     },
@@ -70,16 +70,16 @@ const data = {
         title : "Portfolio",
         techUsed : [
             {
-                techImage: <img src={ImagePortfolio.ImageWordpress} className={imgSet}/>
+                techImage: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageWordpress} className={imgSet}/>
             },
             {
-                techImage: <img src={ImagePortfolio.ImageJavascript} className={imgSet}/>
+                techImage: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageJavascript} className={imgSet}/>
             },
             {
-                techImage: <img src={ImagePortfolio.ImagePHP} className={imgSet}/>
+                techImage: <img alt="PortfolioImagetech" src={ImagePortfolio.ImagePHP} className={imgSet}/>
             },
             {
-                techImage: <img src={ImagePortfolio.ImageElementor} className={imgSet}/>
+                techImage: <img alt="PortfolioImagetech" src={ImagePortfolio.ImageElementor} className={imgSet}/>
             }
         ]
     }

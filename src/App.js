@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Tools from './sections/Tools.js';
@@ -9,7 +9,7 @@ import {Element} from "react-scroll";
 
 function App() {
   return (
-      <>
+      <Fragment>
     {/* Header Section */}
     <header>
     <Header></Header>
@@ -25,7 +25,7 @@ function App() {
 
     {/* ScrollTop Here */}
     <ScrolltoTop/>
-    </>
+    </Fragment>
   );
 }
 

@@ -8,7 +8,7 @@ function Hero ({name, desc, resume, contact, medsos:{github, facebook, instagram
        <div className="container flex items-center w-full mx-auto min-h-[600px] my-8">
             <div className="m-auto align-middle">
                 <div>
-                <img src={images} width="140px" className="border-solid border-2 border-[#1a58a4] rounded-full m-auto"/>
+                <img src={images} width="140px" alt="logoMain" className="border-solid border-2 border-[#1a58a4] rounded-full m-auto" />
                 </div> 
                 <div className="">
                 <h1 className="text-center text-[#1a58a4] font-extrabold text-6xl tracking-wider pb-[10px] pt-[10px]">Hey, I'm {name}</h1>
